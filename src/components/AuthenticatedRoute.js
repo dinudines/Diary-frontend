@@ -5,8 +5,6 @@ import AppContext from "../utils/context";
 const AuthenticatedRoute = ({ children, ...rest }) => {
   const { pathname, search } = useLocation();
   const { isAuthenticated } = useContext(AppContext);
-  console.log(" pathname :", pathname);
-  console.log(" search :", search);
   return (
     <Route {...rest}> { isAuthenticated
       ? (children) : (

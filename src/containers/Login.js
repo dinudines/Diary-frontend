@@ -55,7 +55,7 @@ const Login = () => {
                         size="lg"          
                     />
                     </Form.Group>
-                    <Button variant={`${validateForm() ? 'primary' : ''}`} disabled={!validateForm()} type="submit" className="login-btn">
+                        <Button variant={`${validateForm() ? 'primary' : ''}`} disabled={!validateForm()} type="submit" className={`${validateForm() ? 'login-btn' : 'login-btn login-btn-bg'}`}>
                         {isLoading ? "Loading..." : "Login"}
                     </Button>
                 </form>

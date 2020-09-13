@@ -10,6 +10,9 @@
 
     .login-btn {
         width: 100%;
-        background-color: gray !important;
+    }
+
+    .login-btn-bg {
+      background-color: gray !important;
     }
   }
