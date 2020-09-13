@@ -1,0 +1,18 @@
+.Home .lander {
+    padding: 80px 0;
+    text-align: center;
+}
+  
+.Home .lander h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.create-btn-div {
+    align-self: center;
+    text-align: end;
+}
+
+.table-div {
+    display: block !important;
+}
